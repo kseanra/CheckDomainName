@@ -21,6 +21,7 @@ namespace CheckDomainWinForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
             try
             {
                 string ComputerDomain = Domain.GetComputerDomain() == null ? "" : Domain.GetComputerDomain().ToString().ToUpper();
